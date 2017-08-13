@@ -24,9 +24,10 @@ public class MainActivity extends AppCompatActivity {
         mDbHelper = new DbHandler(this);
 
         addInfo();
+        readInfo();
         //deteleInfo();
         //updateInfo();
-        readInfo();
+        //readInfo();
     }
 
     protected void addInfo(){
